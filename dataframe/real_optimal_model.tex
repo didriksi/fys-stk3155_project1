@@ -1,0 +1,18 @@
+\begin{tabular}{llllll}
+\toprule
+    &         &    Lambda & Poly & Validation &      Test \\
+Model & Resampling technique &           &      &            &           \\
+\midrule
+\multirow{3}{*}{Ridge} & Bootstrap & 1.000e-08 &    4 &  3.406e+03 & 6.434e+02 \\
+    & Kfold & 1.000e-07 &    7 &  5.984e+01 & 4.358e+02 \\
+    & Average & 1.000e-03 &    8 &  1.753e+03 & 4.164e+02 \\
+\cline{1-6}
+\multirow{3}{*}{Lasso} & Bootstrap & 3.162e-02 &    6 &  3.911e+03 & 5.562e+02 \\
+    & Kfold & 3.162e-02 &   14 &  8.845e+01 & 5.519e+02 \\
+    & Average & 3.162e-02 &    6 &  2.038e+03 & 5.562e+02 \\
+\cline{1-6}
+\multirow{3}{*}{OLS} & Bootstrap & 0.000e+00 &    4 &  3.437e+03 & 6.434e+02 \\
+    & Kfold & 0.000e+00 &    7 &  5.935e+01 & 4.545e+02 \\
+    & Average & 0.000e+00 &    4 &  1.790e+03 & 6.434e+02 \\
+\bottomrule
+\end{tabular}
